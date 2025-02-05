@@ -1,0 +1,23 @@
+:root {
+    --color-primary: #0F0E17;
+    --color-secondary: #6A0DAD;
+    --color-tertiary: #00AEEF;
+    --color-text1: #FFFFFE;
+    --color-text2: #A7A9BE;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Roboto, arial, sans-serif;
+}
+
+body {
+    background: url("/assets/imgs/freepik__the-style-is-candid-image-photography-with-natural__31165.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}

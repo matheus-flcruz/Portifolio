@@ -1,27 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: Roboto, arial, sans-serif;
-}
-
 header {
     width: 35%;
     height: 3rem;
-    border: 2px solid #000;
-    background-color: #333;
+    border: 2px solid rgba(255, 255, 255, 0.2); /* Borda sutil */
+    background: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Desfoque no fundo */
+    -webkit-backdrop-filter: blur(10px); /* Para compatibilidade */
     padding: 10px 0;
     text-align: center;
-    margin: 0 auto;
+    margin: 10px auto;
+    border-radius: 2rem; /* Bordas arredondadas para um efeito mais moderno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .menu {
     list-style: none;
     display: flex;
-    justify-content: center;
-    gap: 4rem;
+    justify-content: space-around;
 }
 
 .menu li {
@@ -29,7 +23,14 @@ header {
 }   
 
 .menu li a {
-    color: #FFF;
+    color: var(--color-text2);
     text-decoration: none;
-    font-weight: 500;
+    font-size: larger;
+    font-weight: 600;
+    transition: 0.3s ease-in-out; /* Efeito de transição suave */
+}
+
+.menu li a:hover {
+    color: var(--color-secondary); /* Destaque ao passar o mouse */
+    font-size: 1.4rem; /* Aumenta o tamanho da fonte */
 }
