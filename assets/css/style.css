@@ -34,3 +34,40 @@ header {
     color: var(--color-secondary); /* Destaque ao passar o mouse */
     font-size: 1.4rem; /* Aumenta o tamanho da fonte */
 }
+
+.banner, .sobre, .projetos, .cotato {
+    margin-top: 5rem;
+}
+
+.sobre {
+    display: flex;
+}
+
+.sobre p {
+    /* color: var(--color-text1); */
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px auto;
+    width: 80%;
+}
+
+p {
+    /* color: var(--color-text1); */
+    font-size: 1.2rem;
+    text-align: center;
+    margin: 10px auto;
+}
+
+h1, h2, h3 {
+    color: var(--color-tertiary);
+    text-align: center;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.foto-perfil img {
+    width: 30rem;
+}
