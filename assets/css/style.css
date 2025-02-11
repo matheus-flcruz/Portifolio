@@ -3,8 +3,8 @@ header {
     height: 3rem;
     border: 2px solid rgba(255, 255, 255, 0.2); /* Borda sutil */
     background: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
-    backdrop-filter: blur(10px); /* Desfoque no fundo */
     -webkit-backdrop-filter: blur(10px); /* Para compatibilidade */
+    backdrop-filter: blur(10px); /* Desfoque no fundo */
     padding: 10px 0;
     text-align: center;
     margin: 10px auto;
@@ -23,7 +23,7 @@ header {
 }   
 
 .menu li a {
-    color: var(--color-text2);
+    color: var(--color-texto2);
     text-decoration: none;
     font-size: larger;
     font-weight: 600;
@@ -31,43 +31,79 @@ header {
 }
 
 .menu li a:hover {
-    color: var(--color-secondary); /* Destaque ao passar o mouse */
+    color: var(--color-secundaria); /* Destaque ao passar o mouse */
     font-size: 1.4rem; /* Aumenta o tamanho da fonte */
 }
 
-.banner, .sobre, .projetos, .cotato {
-    margin-top: 5rem;
+main {
+    margin: 0 3rem;
+    /* background-color: blue; */
+}
+
+/* .banner, .sobre, .projetos, .contato {
+    margin-top: 3rem;
+} */
+
+.banner {
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.banner .content {
+    /* background-color: red; */
+    width: 60%;
+}
+
+.banner img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.projetos{
+    /* background-color: orange; */
+}
+
+.contato {
+    /* background-color: green; */
 }
 
 .sobre {
     display: flex;
+    /* background-color: brown; */
+    margin: 0 5rem;
+    border: 1px solid var(--color-secundaria);
+    border-radius: 1.5rem;
 }
 
 .sobre p {
-    /* color: var(--color-text1); */
+    color: var(--color-texto2);
     font-size: 1.2rem;
-    text-align: center;
-    margin: 10px auto;
+    text-align: justify;
     width: 80%;
 }
 
 p {
-    /* color: var(--color-text1); */
+    color: var(--color-texto2);
     font-size: 1.2rem;
     text-align: center;
     margin: 10px auto;
 }
 
 h1, h2, h3 {
-    color: var(--color-tertiary);
+    color: var(--color-terciaria);
     text-align: center;
     margin: 10px auto;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 5rem;
 }
 
 .foto-perfil img {
-    width: 30rem;
+    width: 300px;
+    border-radius: 50%;
+    margin: 0.5rem;
 }
