@@ -4,12 +4,12 @@ header {
     border: 2px solid rgba(255, 255, 255, 0.2); /* Borda sutil */
     background: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
     -webkit-backdrop-filter: blur(10px); /* Para compatibilidade */
-    backdrop-filter: blur(10px); /* Desfoque no fundo */
+    backdrop-filter: blur(25px); /* Desfoque no fundo */
     padding: 10px 0;
     text-align: center;
-    margin: 10px auto;
+    margin: 2rem auto;
     border-radius: 2rem; /* Bordas arredondadas para um efeito mais moderno */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
 }
 
 .menu {
@@ -57,8 +57,8 @@ main {
 }
 
 .banner img {
-    width: 300px;
-    height: 300px;
+    width: 19rem;
+    height: 19rem;
     border-radius: 50%;
 }
 
@@ -89,13 +89,13 @@ p {
     color: var(--color-texto2);
     font-size: 1.2rem;
     text-align: center;
-    margin: 10px auto;
+    margin: 1rem auto;
 }
 
 h1, h2, h3 {
     color: var(--color-terciaria);
     text-align: center;
-    margin: 10px auto;
+    margin: 1rem auto;
 }
 
 h1 {
@@ -103,7 +103,7 @@ h1 {
 }
 
 .foto-perfil img {
-    width: 300px;
-    border-radius: 50%;
+    width: 19rem;
+    /* border-radius: 50%; */
     margin: 0.5rem;
 }
